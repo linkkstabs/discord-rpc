@@ -1,7 +1,7 @@
 {
-  "name": "zensware.rpc",
+  "name": "skibidi",
   "version": "1.0.0",
-  "description": "A Discord selfbot for displaying rich presence using zensware.rpc",
+  "description": "A Discord selfbot for displaying rich presence using skibidi roblox tycoon.",
   "main": "index.js",
   "scripts": {
     "start": "node index.js"
@@ -9,8 +9,7 @@
   "author": "zensware",
   "license": "MIT",
   "dependencies": {
-    "discord.js-selfbot-v13": "2.10.1",
-    "dotenv": "^16.4.5",
+    "discord.js-selfbot-v13": "^2.10.1",
     "express": "^4.17.2"
   }
 }
