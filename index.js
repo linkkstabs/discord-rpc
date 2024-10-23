@@ -64,14 +64,14 @@ client.on('ready', async () => {
         .setApplicationId('1298676906941743197') // Replace '123' with your actual Application ID
         .setType('WATCHING')
         .setURL('https://www.twitch.tv/mrprocrastinatorsensei') // Must be a valid YouTube or Twitch URL
-        .setState('Idle')
-        .setName('Mr. Procrastinator Sensei')
-        .setDetails('Sensei') // Details without time
+        .setState('Serving Lord Rimuru..')
+        .setName('Forest of Jura')
+        .setDetails('Nation of Tempest') // Details without time
         .setStartTimestamp(Date.now())
-        .setAssetsLargeImage('https://media.discordapp.net/attachments/1181126458744242206/1209548911115636776/giphy.gif?ex=6719d7f4&is=67188674&hm=58bb39578f292f4013d870ad6824fca5ee761b4b30b87ddcb764ab5ef9651d2a&=') // Large image link
-        .setAssetsLargeText(null) // Text when you hover over the large image
-        .setAssetsSmallImage('https://media.discordapp.net/attachments/1181126458744242206/1209548911786594345/giphy_1.gif?ex=6719d7f4&is=67188674&hm=4b6b439018f3f8c0d484f1b107fca20561baa906b71cbdccb831a72b8d2488e1&=') // Small image link
-        .setAssetsSmallText(null) // Text when you hover over the small image
+        .setAssetsLargeImage('https://media.discordapp.net/attachments/1181461047736029206/1298685483546841088/tumblr_ddfd0c1510a5918a845f37d667721de6_0975f652_400.webp?ex=671a769b&is=6719251b&hm=3a5a1690b732cab48ebdb4502094c604af0c5478032cc8fa0d3ed0d16ec55d2c&=&animated=true') // Large image link
+        .setAssetsLargeText('Diablo (Primordial Black)') // Text when you hover over the large image
+        .setAssetsSmallImage('https://media.discordapp.net/attachments/1181461047736029206/1298685367519543326/tensura-rimuru.gif?ex=671a7680&is=67192500&hm=a83e112383f4fe7ef6ffc01f98ea523d6888bf956b1c783ce95e538813e0b6ba&=') // Small image link
+        .setAssetsSmallText('Rimuru Tempest (Demon Lord)') // Text when you hover over the small image
         .addButton('...', 'https://linkkstabs.carrd.co'); // Button with URL
 
       client.user.setActivity(r);
