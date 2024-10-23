@@ -61,18 +61,18 @@ client.on('ready', async () => {
     try {
       // Create a new Rich Presence object
       const r = new Discord.RichPresence()
-        .setApplicationId('1023269983922442373') // Replace '123' with your actual Application ID
+        .setApplicationId('1298676906941743197') // Replace '123' with your actual Application ID
         .setType('WATCHING')
-        .setURL('https://www.twitch.tv/zensware') // Must be a valid YouTube or Twitch URL
-        .setState(null)
-        .setName('zensware')
-        .setDetails('zensware') // Details without time
+        .setURL('https://www.twitch.tv/mrprocrastinatorsensei') // Must be a valid YouTube or Twitch URL
+        .setState('Idle')
+        .setName('Mr. Procrastinator Sensei')
+        .setDetails('Sensei') // Details without time
         .setStartTimestamp(Date.now())
-        .setAssetsLargeImage('https://media.discordapp.net/attachments/1206955445940658287/1277834158152093696/200w.gif?ex=66d13e4c&is=66cfeccc&hm=87ebbdc2e7504ed039106ce9d97663328902a13b5f389f99a5bed24fa7f65ecb&=&width=150&height=150') // Large image link
+        .setAssetsLargeImage('https://media.discordapp.net/attachments/1181126458744242206/1209548911115636776/giphy.gif?ex=6719d7f4&is=67188674&hm=58bb39578f292f4013d870ad6824fca5ee761b4b30b87ddcb764ab5ef9651d2a&=') // Large image link
         .setAssetsLargeText(null) // Text when you hover over the large image
-        .setAssetsSmallImage(null) // Small image link
+        .setAssetsSmallImage('https://media.discordapp.net/attachments/1181126458744242206/1209548911786594345/giphy_1.gif?ex=6719d7f4&is=67188674&hm=4b6b439018f3f8c0d484f1b107fca20561baa906b71cbdccb831a72b8d2488e1&=') // Small image link
         .setAssetsSmallText(null) // Text when you hover over the small image
-        .addButton('My portfolio', 'https://www.zensware.com/'); // Button with URL
+        .addButton('...', 'https://linkkstabs.carrd.co'); // Button with URL
 
       client.user.setActivity(r);
       client.user.setPresence({ status: "idle" }); // Set user status to 'Do Not Disturb'
