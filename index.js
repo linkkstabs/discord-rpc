@@ -62,7 +62,7 @@ client.on('ready', async () => {
       // Create a new Rich Presence object
       const r = new Discord.RichPresence()
         .setApplicationId('1298676906941743197') // Replace '123' with your actual Application ID
-        .setType('WATCHING')
+        .setType('STREAMING')
         .setURL('https://www.twitch.tv/mrprocrastinatorsensei') // Must be a valid YouTube or Twitch URL
         .setState('Serving Lord Rimuru..')
         .setName('Forest of Jura')
@@ -72,7 +72,7 @@ client.on('ready', async () => {
         .setAssetsLargeText('Diablo (Primordial Black)') // Text when you hover over the large image
         .setAssetsSmallImage('https://media.discordapp.net/attachments/1181461047736029206/1298685367519543326/tensura-rimuru.gif?ex=671a7680&is=67192500&hm=a83e112383f4fe7ef6ffc01f98ea523d6888bf956b1c783ce95e538813e0b6ba&=') // Small image link
         .setAssetsSmallText('Rimuru Tempest (Demon Lord)') // Text when you hover over the small image
-        .addButton('...', 'https://linkkstabs.carrd.co'); // Button with URL
+        .addButton('Carrd', 'https://mrprocrastinatorsensei.carrd.co'); // Button with URL
 
       client.user.setActivity(r);
       client.user.setPresence({ status: "idle" }); // Set user status to 'Do Not Disturb'
