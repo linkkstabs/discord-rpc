@@ -62,7 +62,7 @@ client.on('ready', async () => {
       // Create a new Rich Presence object
       const r = new Discord.RichPresence()
         .setApplicationId('1298676906941743197') // Replace '123' with your actual Application ID
-        .setType('STREAMING')
+        .setType('WATCHING')
         .setURL('https://www.twitch.tv/mrprocrastinatorsensei') // Must be a valid YouTube or Twitch URL
         .setState('Serving Lord Rimuru..')
         .setName('Forest of Jura')
