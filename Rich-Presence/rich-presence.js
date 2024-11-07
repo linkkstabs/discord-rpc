@@ -40,7 +40,7 @@ const initializeDiscordClient = (config) => {
 const updateRichPresence = (client) => {
   try {
     const richPresence = new Discord.RichPresence()
-      .setApplicationId(presenceConfig.1298676906941743197
+      .setApplicationId(presenceConfig."1298676906941743197"
 )
       .setType(presenceConfig.WATCHING)
       .setURL(presenceConfig."https://www.twitch.tv/mrprocrastinatorsensei")
